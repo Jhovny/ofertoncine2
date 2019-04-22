@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ConfirmacionFragment">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dis_baner_titulo"
+            android:gravity="center"
+            android:background="@color/color_fonfo_titulos"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CONFIRMACION DE COMPRA"
+                android:textSize="@dimen/titulo_text_compra"
+                android:textColor="@color/color_texto_titulos"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:text="Pelicula"
+            android:textColor="@color/color_texto"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Advengers"
+            android:background="@drawable/drawing_text"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/color_texto_edit_text"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:text="Horario"
+            android:textColor="@color/color_texto"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12:00"
+            android:background="@drawable/drawing_text"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/color_texto_edit_text"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:text="Lugar"
+            android:textColor="@color/color_texto"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cine Comas"
+            android:background="@drawable/drawing_text"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/color_texto_edit_text"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:text="Cantidad de Butacas a Adultos"
+            android:textColor="@color/color_texto"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:background="@drawable/drawing_text"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/color_texto_edit_text"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:text="Cantidad de Butacas a Menores"
+            android:textColor="@color/color_texto"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:background="@drawable/drawing_text"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/color_texto_edit_text"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:text="Sub Total"
+            android:textColor="@color/color_texto"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="S/. 50.00"
+            android:background="@drawable/drawing_text"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/color_texto_edit_text"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:text="Total IGV"
+            android:textColor="@color/color_texto"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="S/. 9.00"
+            android:background="@drawable/drawing_text"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/color_texto_edit_text"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:text="Total a Pagar"
+            android:textColor="@color/color_texto"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="S/. 59.00"
+            android:background="@drawable/drawing_text"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/color_texto_edit_text"
+            />
+
+
+    <Button
+        android:id="@+id/btnPagar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/RaiseButtonDark"
+
+        android:text="CONFIRMAR PAGO"
+        />
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/RaiseButtonCancelarDark"
+
+            android:text="CANCELAR COMPRA"
+            />
+
+    </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>

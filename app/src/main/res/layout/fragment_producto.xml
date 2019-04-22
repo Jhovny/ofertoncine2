@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".view.ProductoFragment">
+
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dis_baner_titulo"
+            android:gravity="center"
+            android:background="@color/color_fonfo_titulos"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DETALLE PRODUCTO"
+                android:textSize="@dimen/titulo_text_compra"
+                android:textColor="@color/color_texto_titulos"
+                />
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:text="Pelicula"
+            android:textColor="@color/color_texto"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Advengers"
+            android:background="@drawable/drawing_text"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/color_texto_edit_text"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:text="Horario"
+            android:textColor="@color/color_texto"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12:00"
+            android:background="@drawable/drawing_text"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/color_texto_edit_text"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:text="Lugar"
+            android:textColor="@color/color_texto"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cine Comas"
+            android:background="@drawable/drawing_text"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/color_texto_edit_text"
+            />
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/txtNumeroButacaMayor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Cantidad de Butacas a Adultos"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/txtNumeroButacaMenor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="Cantidad de Butacas a Menores"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/RaiseButtonCancelarDark"
+
+            android:text="CANCELAR COMPRA"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+</ScrollView>
+</FrameLayout>

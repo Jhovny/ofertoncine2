@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#536DFE</color>
+
+    <color name="colorLista">#FDBBE5FA</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="color_boton">#0088cf</color>
+    <color name="color_texto">#425977</color>
+    <color name="color_texto_boton">#FFFFFF</color>
+    <color name="color_texto_edit_text">#383B42</color>
+    <color name="color_texto_titulos">#0472B4</color>
+    <color name="color_fonfo_titulos">#C8DCF0</color>
+
+</resources>

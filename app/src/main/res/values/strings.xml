@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Oferta Cine DSD</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="cine">Cine</string>
+    <string name="titulocine_card">Advengers</string>
+    <string name="descripcion_card">Cine Start Comas</string>
+    <string name="megusta_card">10 me gusta</string>
+    <string name="home">Home</string>
+    <string name="benificio">Benificio</string>
+
+    <string name="cerrar_sesion">Cerrar Sesion</string>
+    <string name="perfil">Perfil</string>
+</resources>
