@@ -16,7 +16,7 @@ import java.util.ArrayList;
 
 public class CineAdapter  extends ArrayAdapter<Cine> {
 
-    public CineAdapter(Context context, ArrayList<Cine> datos) {
+    public CineAdapter(Context context, Cine[] datos) {
         super(context, R.layout.listitem_cine, datos);
     }
 
