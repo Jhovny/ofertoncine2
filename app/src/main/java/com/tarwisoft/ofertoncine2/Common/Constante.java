@@ -15,5 +15,4 @@ public class Constante {
     public static String  URL_SERVICIO_OFERTAS ="http://upc.tarwisoft.com/api/ofertas";
     public static String  URL_SERVICIO_BENIFICIOS ="http://upc.tarwisoft.com/api/benificio";
 
-
 }

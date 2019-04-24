@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "589647176092",
+    "firebase_url": "https://updsds.firebaseio.com",
+    "project_id": "updsds",
+    "storage_bucket": "updsds.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589647176092:android:d30ec20493f548d1",
+        "android_client_info": {
+          "package_name": "com.tarwisoft.ofertoncine2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589647176092-p22qqrm7gjk7c8fd9r4pd59k5jf22m80.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tarwisoft.ofertoncine2",
+            "certificate_hash": "671b4fd0dfac7b7eacc80417b7180433e121d840"
+          }
+        },
+        {
+          "client_id": "589647176092-c6sui58j37vavoc4nagn05d38hn94n34.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgkmmhPUwkfhaEAgRbGE-ExLBrm7o_eXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589647176092-c6sui58j37vavoc4nagn05d38hn94n34.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
